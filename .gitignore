@@ -1,0 +1,7 @@
+.idea/
+pycache/
+*.pyc
+venv/
+.venv/
+.env
+*.csv
