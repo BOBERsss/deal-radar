@@ -16,3 +16,5 @@ for number, card in enumerate(cards, 1):
    price = card.select_one("p.price_color").get_text()
    rating_word = card.select_one("p.star-rating")["class"][1]
    print(f"{number:2}. {title[:38]:38} {price:>7} {'*' * RATINGS[rating_word]}")
+
+                                                              
